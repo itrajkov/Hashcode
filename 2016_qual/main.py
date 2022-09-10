@@ -1,6 +1,7 @@
+import entity
 
 def main():
-    print("Hello World")
+    print("Simulation initialized..")
 
 if __name__ == "__main__":
     main()

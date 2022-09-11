@@ -13,5 +13,5 @@ class Map:
         else:
             self._warehouses[f"{w.r},{w.c}"] = w
 
-    def get_warehouse(self, key):
-        print(self._warehouses[key])
+    def get_warehouse(self, id) -> warehouse.Warehouse:
+        return self._warehouses[list(self._warehouses.keys())[id]]

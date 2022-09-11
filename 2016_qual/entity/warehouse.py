@@ -5,6 +5,7 @@ class Warehouse:
         self.id = id
         self.r = r
         self.c = c
+        self._inventory = capacities
         self.capacities = capacities
 
     def get_capacity(self, pt):

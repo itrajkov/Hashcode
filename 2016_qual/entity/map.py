@@ -6,8 +6,6 @@ class Map:
         self._warehouses = {}
         self.r = r # number of rows
         self.c = c # number of columns
-        print("Cells initialized.")
-
 
     def add_warehouse(self, w: warehouse.Warehouse) -> None:
         if f"{w.r},{w.c}" in self._warehouses.keys():
